@@ -1,6 +1,7 @@
 package cn.gb2260;
 
 public enum Revision {
+
     V2014("2014"),
     V2013("2013"),
     V2012("2012"),
@@ -26,6 +27,6 @@ public enum Revision {
     }
 
     public String getCode() {
-        return code;
+        throw new UnsupportedOperationException("STUB: not implemented");
     }
 }
